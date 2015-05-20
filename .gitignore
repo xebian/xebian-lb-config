@@ -13,3 +13,4 @@ config/binary
 config/bootstrap
 config/common
 config/source
+config/build
