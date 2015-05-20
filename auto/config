@@ -75,6 +75,6 @@ lb config noauto \
 	--iso-publisher "Unit 193" \
 	--iso-volume "Xubuntu Live" \
 	--linux-packages linux-image \
-	--bootappend-live "boot=live nocomponents=xfce4-panel noconfig=sudo username=xubuntu hostname=xubuntu" \
+	--bootappend-live "boot=live nocomponents=xfce4-panel username=xubuntu hostname=xubuntu" \
 	$lb_opts \
 	"$@"
