@@ -41,17 +41,19 @@ fi
 
 case "$arch" in
     amd64)
+	lb_opts="$lb_opts --debian-installer live"
 	if [ -n "$liquorix" ]; then
-	    lb_opts="$lb_opts --debian-installer live --linux-flavours liquorix-amd64"
+	    lb_opts="$lb_opts --linux-flavours liquorix-amd64"
 	else
-	    lb_opts="$lb_opts --debian-installer live"
+	    lb_opts="$lb_opts --linux-flavours amd64"
 	fi
     ;;
     i386)
+	lb_opts="$lb_opts --debian-installer live"
 	if [ -n "$liquorix" ]; then
-	    lb_opts="$lb_opts --debian-installer live --linux-flavours liquorix-686-pae"
+	    lb_opts="$lb_opts --linux-flavours liquorix-686-pae"
 	else
-	    lb_opts="$lb_opts --debian-installer live --linux-flavours 686-pae"
+	    lb_opts="$lb_opts --linux-flavours 686-pae"
 	fi
     ;;
     armel|armhf)
