@@ -46,7 +46,7 @@ thunar
 thunar-volman
 tumbler
 xfce4-appfinder
-xfce4-indicator-plugin
+#xfce4-indicator-plugin
 xfce4-notifyd
 xfce4-panel
 xfce4-power-manager
