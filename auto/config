@@ -71,6 +71,7 @@ lb config noauto \
 	--mirror-debian-installer "$mirror" \
 	--firmware-binary true \
 	--firmware-chroot true \
+	--image-name "xebian-$dist" \
 	--iso-application "Xebian" \
 	--iso-publisher "Unit 193" \
 	--iso-volume "Xebian Live" \
