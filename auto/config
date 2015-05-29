@@ -71,10 +71,10 @@ lb config noauto \
 	--mirror-debian-installer "$mirror" \
 	--firmware-binary true \
 	--firmware-chroot true \
-	--iso-application "Xubuntu" \
+	--iso-application "Xebian" \
 	--iso-publisher "Unit 193" \
-	--iso-volume "Xubuntu Live" \
+	--iso-volume "Xebian Live" \
 	--linux-packages linux-image \
-	--bootappend-live "boot=live nocomponents=xfce4-panel username=xubuntu hostname=xubuntu" \
+	--bootappend-live "boot=live nocomponents=xfce4-panel username=xebian hostname=xebian" \
 	$lb_opts \
 	"$@"
