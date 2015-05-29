@@ -75,6 +75,6 @@ lb config noauto \
 	--iso-publisher "Unit 193" \
 	--iso-volume "Xebian Live" \
 	--linux-packages linux-image \
-	--bootappend-live "boot=live nocomponents=xfce4-panel username=xebian hostname=xebian" \
+	--bootappend-live "boot=live" \
 	$lb_opts \
 	"$@"

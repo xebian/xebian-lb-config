@@ -6,13 +6,13 @@ label live-persistence
     menu label ^Live USB Persistence              (check kali.org/prst)
     linux /live/vmlinuz
     initrd /live/initrd.img
-    append boot=live nocomponents=xfce4-panel username=xebian hostname=xebian persistence
+    append boot=live persistence
 
 label live-encrypted-persistence
     menu label ^Live USB Encrypted Persistence    (check kali.org/prst)
     linux /live/vmlinuz
     initrd /live/initrd.img
-    append boot=live persistent=cryptsetup persistence-encryption=luks nocomponents=xfce4-panel username=xebian hostname=xebian persistence
+    append boot=live persistent=cryptsetup persistence-encryption=luks persistence
 
 END
 
