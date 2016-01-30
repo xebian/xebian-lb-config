@@ -62,8 +62,8 @@ xebian-artwork
 xebian-default-settings
 
 ## Extras
-#catfish
-evince-gtk
+catfish
+evince
 #file-roller
 iceweasel
 gnome-calculator
