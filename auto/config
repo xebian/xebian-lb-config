@@ -78,5 +78,6 @@ lb config noauto \
 	--iso-volume "Xebian Live" \
 	--linux-packages linux-image \
 	--bootappend-live "boot=live" \
+	--win32-loader false \
 	$lb_opts \
 	"$@"
