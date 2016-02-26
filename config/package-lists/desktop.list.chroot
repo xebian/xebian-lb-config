@@ -108,7 +108,8 @@ software-properties-gtk
 
 ## Fonts
 fonts-dejavu-core
-fonts-droid
+fonts-noto-hinted
+fonts-noto-mono
 fonts-freefont-ttf
 fonts-guru
 fonts-kacst-one
