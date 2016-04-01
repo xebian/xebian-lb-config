@@ -65,7 +65,7 @@ xebian-default-settings
 catfish
 evince
 #file-roller
-iceweasel
+firefox
 gnome-calculator
 gnome-system-tools
 #gtk-theme-config
