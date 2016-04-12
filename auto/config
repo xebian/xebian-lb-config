@@ -6,7 +6,7 @@ mirror=http://httpredir.debian.org/debian/
 # Detect target architecture and filter args
 temp=""
 arch=$(dpkg --print-architecture)
-dist="stretch"
+dist="sid"
 lb_opts=""
 while [ $# -gt 0 ]; do
 	arg="$1"
@@ -22,6 +22,9 @@ while [ $# -gt 0 ]; do
 		;;
 	--sid|--unstable)
 		dist="sid"
+		;;
+	--testing)
+		dist="testing"
 		;;
 	*)
 		temp="$temp "'"'"$arg"'"'
