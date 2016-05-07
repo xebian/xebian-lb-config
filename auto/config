@@ -69,10 +69,9 @@ esac
 
 lb config noauto \
 	--distribution "$dist" \
-	--debian-installer-distribution "$dist" \
+	--debian-installer-distribution daily \
 	--archive-areas "main contrib non-free" \
 	--mirror-bootstrap "$mirror" \
-	--mirror-debian-installer "$mirror" \
 	--firmware-binary true \
 	--firmware-chroot true \
 	--image-name "xebian-$dist" \
