@@ -62,12 +62,16 @@ xebian-artwork
 xebian-default-settings
 
 ## Extras
+albatross-gtk-theme
+blackbird-gtk-theme
+bluebird-gtk-theme
 catfish
 evince
 #file-roller
 firefox
 gnome-calculator
 gnome-system-tools
+greybird-gtk-theme
 #gtk-theme-config
 gvfs-backends
 gvfs-fuse
@@ -78,6 +82,7 @@ inxi
 #libreoffice-writer
 #menulibre
 #mugshot
+numix-gtk-theme
 pastebinit
 #pidgin
 #pidgin-otr
