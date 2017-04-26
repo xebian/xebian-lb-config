@@ -1,2 +1,2 @@
-deb http://archive.unit193.net/debian/ unstable/
-# deb-src http://archive.unit193.net/debian/ unstable/
+deb http://archive.xebian.org/debian/ unstable/
+# deb-src http://archive.xebian.org/debian/ unstable/
