@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # You can put local mirrors here if you want
-mirror=http://httpredir.debian.org/debian/
+mirror=http://deb.debian.org/debian/
 
 # Detect target architecture and filter args
 temp=""
