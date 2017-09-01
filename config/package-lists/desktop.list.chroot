@@ -56,7 +56,7 @@ firefox
 gnome-calculator
 gnome-system-tools
 greybird-gtk-theme
-#gtk-theme-config
+gtk-theme-config
 gvfs-backends
 gvfs-fuse
 inxi
@@ -64,8 +64,8 @@ inxi
 #libreoffice-gtk
 #libreoffice-style-tango
 #libreoffice-writer
-#menulibre
-#mugshot
+menulibre
+mugshot
 numix-gtk-theme
 pastebinit
 #pidgin
@@ -79,20 +79,20 @@ software-properties-gtk
 #gigolo
 #libxfce4ui-utils
 #orage
-#parole
+parole
 #thunar-archive-plugin
-#xfburn
-#xfce4-cpugraph-plugin
+xfburn
+xfce4-cpugraph-plugin
 #xfce4-dict
 #xfce4-mailwatch-plugin
-#xfce4-netload-plugin
+xfce4-netload-plugin
 #xfce4-notes-plugin
 #xfce4-places-plugin
 #xfce4-quicklauncher-plugin
-#xfce4-systemload-plugin
-#xfce4-taskmanager
+xfce4-systemload-plugin
+xfce4-taskmanager
 #xfce4-verve-plugin
-#xfce4-weather-plugin
+xfce4-weather-plugin
 #xfce4-xkb-plugin
 
 ## Fonts
