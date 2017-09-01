@@ -51,7 +51,7 @@ blackbird-gtk-theme
 bluebird-gtk-theme
 catfish
 evince
-#file-roller
+file-roller
 firefox
 gnome-calculator
 gnome-system-tools
@@ -72,7 +72,7 @@ pastebinit
 #pidgin-otr
 #simple-scan
 software-properties-gtk
-#system-config-printer
+system-config-printer
 #icedove
 
 ## Extra Xfce
