@@ -2,25 +2,10 @@
 vanir-keyring
 
 ## Standard toolsets
-apt-transport-https
 command-not-found
-dosfstools
-iputils-tracepath
 lshw
-memtest86+
 mtr-tiny
-netcat-openbsd
-ntfs-3g
-ntpdate
-parted
-pcmciautils
-psmisc
 rsync
-screen
-strace
-tcpdump
-usbutils
-
 rfkill
 wireless-tools
 
@@ -33,7 +18,6 @@ lightdm
 lightdm-gtk-greeter
 network-manager-gnome
 pavucontrol
-pm-utils
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
