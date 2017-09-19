@@ -21,6 +21,7 @@ pavucontrol
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
+xserver-xorg-input-synaptics
 
 ## Xfce desktop
 exo-utils
