@@ -18,6 +18,7 @@ lightdm
 lightdm-gtk-greeter
 network-manager-gnome
 pavucontrol
+synaptic
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
