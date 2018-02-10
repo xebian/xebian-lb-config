@@ -49,13 +49,12 @@ xebian-default-settings
 
 ## Extras
 albatross-gtk-theme
+atril
 blackbird-gtk-theme
 bluebird-gtk-theme
 catfish
-evince
-file-roller
+engrampa
 firefox
-gnome-calculator
 gnome-system-tools
 greybird-gtk-theme
 gtk-theme-config
@@ -66,6 +65,7 @@ inxi
 #libreoffice-gtk
 #libreoffice-style-tango
 #libreoffice-writer
+mate-calc
 menulibre
 mugshot
 numix-gtk-theme
