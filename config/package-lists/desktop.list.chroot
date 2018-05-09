@@ -24,6 +24,7 @@ synaptic
 xdg-user-dirs
 xdg-user-dirs-gtk
 xdg-utils
+xserver-xorg-input-all
 xserver-xorg-input-synaptics
 
 ## Xfce desktop
