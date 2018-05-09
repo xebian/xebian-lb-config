@@ -18,6 +18,8 @@ lightdm
 lightdm-gtk-greeter
 network-manager-gnome
 pavucontrol
+plymouth
+plymouth-themes
 synaptic
 xdg-user-dirs
 xdg-user-dirs-gtk
