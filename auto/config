@@ -68,10 +68,10 @@ case "$arch" in
 esac
 
 lb config noauto \
-	--distribution "$dist" \
-	--debian-installer-distribution daily \
 	--archive-areas "main contrib non-free" \
-	--mirror-bootstrap "$mirror" \
+	--bootappend-live "boot=live" \
+	--debian-installer-distribution daily \
+	--distribution "$dist" \
 	--firmware-binary true \
 	--firmware-chroot true \
 	--image-name "xebian-$dist" \
@@ -79,7 +79,7 @@ lb config noauto \
 	--iso-publisher "Unit 193" \
 	--iso-volume "Xebian Live" \
 	--linux-packages linux-image \
-	--bootappend-live "boot=live" \
+	--mirror-bootstrap "$mirror" \
 	--win32-loader false \
 	$lb_opts \
 	"$@"
