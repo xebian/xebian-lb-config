@@ -17,9 +17,6 @@ while [ $# -gt 0 ]; do
 		temp="$temp "'"'"$2"'"'
 		shift
 		;;
-	--liquorix)
-		liquorix="1"
-		;;
 	--sid|--unstable)
 		dist="sid"
 		;;
@@ -34,30 +31,14 @@ while [ $# -gt 0 ]; do
 done
 eval set -- "$temp"
 
-if [ -n "$liquorix" ]; then
-	mkdir -p config/archives
-	echo "deb http://mirror.unit193.net/liquorix sid main" \
-		> config/archives/liquorix.list.chroot
-	echo "deb http://mirror.unit193.net/liquorix sid main" \
-		> config/archives/liquorix.list.binary
-fi
-
 case "$arch" in
     amd64)
 	lb_opts="$lb_opts --debian-installer live"
-	if [ -n "$liquorix" ]; then
-	    lb_opts="$lb_opts --linux-flavours liquorix-amd64"
-	else
-	    lb_opts="$lb_opts --linux-flavours amd64"
-	fi
+	lb_opts="$lb_opts --linux-flavours amd64"
     ;;
     i386)
 	lb_opts="$lb_opts --debian-installer live"
-	if [ -n "$liquorix" ]; then
-	    lb_opts="$lb_opts --linux-flavours liquorix-686-pae"
-	else
-	    lb_opts="$lb_opts --linux-flavours 686-pae"
-	fi
+	lb_opts="$lb_opts --linux-flavours 686-pae"
     ;;
     armel|armhf)
 	lb_opts="$lb_opts --binary-images hdd --binary-filesystem ext4 --chroot-filesystem none"
