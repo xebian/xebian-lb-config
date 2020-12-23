@@ -36,16 +36,15 @@ thunar
 thunar-volman
 tumbler
 xfce4-appfinder
-#xfce4-indicator-plugin
 xfce4-notifyd
 xfce4-panel
 xfce4-power-manager
 xfce4-pulseaudio-plugin
+xfce4-screensaver
 xfce4-screenshooter
 xfce4-session
 xfce4-settings
 xfce4-terminal
-xfce4-statusnotifier-plugin
 xfce4-whiskermenu-plugin
 xfdesktop4
 xfwm4
@@ -81,9 +80,8 @@ system-config-printer
 ## Extra Xfce
 #gigolo
 #libxfce4ui-utils
-#orage
 parole
-#thunar-archive-plugin
+thunar-archive-plugin
 xfburn
 xfce4-cpugraph-plugin
 #xfce4-dict
