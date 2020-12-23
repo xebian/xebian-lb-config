@@ -18,6 +18,7 @@ lightdm
 lightdm-gtk-greeter
 network-manager-gnome
 pavucontrol
+plocate
 plymouth
 plymouth-themes
 synaptic
