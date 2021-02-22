@@ -6,7 +6,7 @@ mirror=http://deb.debian.org/debian/
 # Detect target architecture and filter args
 temp=""
 arch=$(dpkg --print-architecture)
-dist="sid"
+dist="unstable"
 lb_opts=""
 while [ $# -gt 0 ]; do
 	arg="$1"
@@ -18,7 +18,7 @@ while [ $# -gt 0 ]; do
 		shift
 		;;
 	--sid|--unstable)
-		dist="sid"
+		dist="unstable"
 		;;
 	--testing)
 		dist="testing"
@@ -50,15 +50,14 @@ esac
 
 lb config noauto \
 	--archive-areas "main contrib non-free" \
-	--bootappend-live "boot=live" \
+	--bootappend-live "boot=live quiet splash" \
 	--debian-installer-distribution daily \
 	--distribution "$dist" \
 	--firmware-binary true \
 	--firmware-chroot true \
 	--image-name "xebian-$dist" \
 	--iso-application "Xebian" \
-	--iso-publisher "Unit 193" \
-	--iso-volume "Xebian Live" \
+	--iso-publisher "Xebian team" \
 	--linux-packages linux-image \
 	--mirror-bootstrap "$mirror" \
 	--win32-loader false \
