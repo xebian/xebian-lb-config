@@ -2,13 +2,18 @@
 vanir-keyring
 
 ## Standard toolsets
+anacron
 command-not-found
 console-setup
+iw
 lshw
 mtr-tiny
+plocate
 rsync
 rfkill
+sudo
 wireless-tools
+wpasupplicant
 
 ## Standard desktop
 gucharmap
@@ -18,7 +23,6 @@ lightdm
 lightdm-gtk-greeter
 network-manager-gnome
 pavucontrol
-plocate
 plymouth
 plymouth-themes
 synaptic
