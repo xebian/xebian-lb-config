@@ -3,7 +3,7 @@ vanir-keyring
 
 ## Standard toolsets
 anacron
-chrony
+#chrony
 command-not-found
 console-setup
 iw
