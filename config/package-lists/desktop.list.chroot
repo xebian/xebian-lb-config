@@ -3,6 +3,7 @@ vanir-keyring
 
 ## Standard toolsets
 anacron
+chrony
 command-not-found
 console-setup
 iw
@@ -72,15 +73,11 @@ inxi
 mate-calc
 menulibre
 mugshot
-numix-gtk-theme
 package-update-indicator
 pastebinit
-#pidgin
-#pidgin-otr
 simple-scan
 software-properties-gtk
 system-config-printer
-#icedove
 
 ## Extra Xfce
 #gigolo
@@ -88,8 +85,12 @@ system-config-printer
 parole
 thunar-archive-plugin
 xfburn
-xfce4-cpugraph-plugin
 #xfce4-dict
+xfce4-panel-profiles
+
+## Extra panel plugins
+xfce4-clipman-plugin
+xfce4-cpugraph-plugin
 #xfce4-mailwatch-plugin
 xfce4-netload-plugin
 #xfce4-notes-plugin
