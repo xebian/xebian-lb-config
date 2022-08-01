@@ -49,7 +49,7 @@ case "$arch" in
 esac
 
 lb config noauto \
-	--archive-areas "main contrib non-free" \
+	--archive-areas "main contrib non-free-firmware non-free" \
 	--bootappend-live "boot=live quiet splash" \
 	--debian-installer-distribution daily \
 	--distribution "$dist" \
