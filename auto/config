@@ -22,6 +22,14 @@ while [ $# -gt 0 ]; do
 		;;
 	--testing)
 		dist="testing"
+		lb_opts="$lb_opts --security false"
+		lb_opts="$lb_opts --updates false"
+		;;
+	--stable)
+		dist="$(debian-distro-info --stable || echo stable)"
+		lb_opts="$lb_opts --security true"
+		lb_opts="$lb_opts --updates true"
+		lb_opts="$lb_opts --backports true"
 		;;
 	*)
 		temp="$temp "'"'"$arg"'"'
