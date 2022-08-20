@@ -33,11 +33,11 @@ eval set -- "$temp"
 
 case "$arch" in
     amd64)
-	lb_opts="$lb_opts --debian-installer live"
+	lb_opts="$lb_opts --debian-installer none"
 	lb_opts="$lb_opts --linux-flavours amd64"
     ;;
     i386)
-	lb_opts="$lb_opts --debian-installer live"
+	lb_opts="$lb_opts --debian-installer none"
 	lb_opts="$lb_opts --linux-flavours 686-pae"
     ;;
     armel|armhf)
@@ -51,7 +51,6 @@ esac
 lb config noauto \
 	--archive-areas "main contrib non-free-firmware non-free" \
 	--bootappend-live "boot=live quiet splash" \
-	--debian-installer-distribution daily \
 	--distribution "$dist" \
 	--firmware-binary true \
 	--firmware-chroot true \
