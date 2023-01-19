@@ -1,4 +1,5 @@
 # package-update-indicator recommends this, but we use synaptic instead.
+gnome-package-updater-
 gnome-packagekit-
 # Blacklist ll, xfce4-session recommends it but it clashes a bit with xfce4-screensaver
 light-locker-
