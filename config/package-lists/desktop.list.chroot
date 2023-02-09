@@ -104,5 +104,6 @@ xfce4-weather-plugin
 
 ## Fonts
 fonts-dejavu-core
+fonts-noto-color-emoji
 fonts-noto-hinted
 fonts-noto-mono
