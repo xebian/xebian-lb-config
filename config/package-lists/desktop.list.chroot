@@ -23,7 +23,7 @@ libpam-gnome-keyring
 lightdm
 lightdm-gtk-greeter
 network-manager-gnome
-pavucontrol
+pipewire-audio
 plymouth
 plymouth-themes
 synaptic
