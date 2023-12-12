@@ -1,3 +1,5 @@
+# packagekit now recommends appstream, which is only really useful in software centers.
+appstream-
 # package-update-indicator recommends this, but we use synaptic instead.
 gnome-package-updater-
 gnome-packagekit-
