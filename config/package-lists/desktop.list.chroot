@@ -60,7 +60,12 @@ xebian-default-settings
 atril
 catfish
 engrampa
+#if DISTRIBUTION sid unstable
 firefox
+#endif
+#nif DISTRIBUTION sid unstable
+firefox-esr
+#endif
 gnome-system-tools
 greybird-gtk-theme
 gvfs-backends
