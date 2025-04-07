@@ -57,7 +57,7 @@ case "$arch" in
 esac
 
 lb config noauto \
-	--archive-areas "main contrib non-free-firmware non-free" \
+	--archive-areas "main contrib non-free-firmware" \
 	--bootappend-live "boot=live quiet splash" \
 	--distribution "$dist" \
 	--firmware-binary true \
