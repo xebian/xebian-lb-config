@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ -f /usr/sbin/bootloader-config ];then
+	grep -- --update /usr/sbin/bootloader-config || sed -i "s/apt-get/apt-get --update/" /usr/sbin/bootloader-config
+else
+	grep -- --update /usr/share/calamares/helpers/calamares-bootloader-config || sed -i "s/apt-get/apt-get --update/" /usr/share/calamares/helpers/calamares-bootloader-config
+fi
