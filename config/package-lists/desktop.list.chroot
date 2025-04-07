@@ -35,6 +35,7 @@ xserver-xorg-input-synaptics
 
 ## Xfce desktop
 exo-utils
+mate-polkit
 mousepad
 ristretto
 thunar
@@ -81,7 +82,6 @@ mugshot
 package-update-indicator
 pastebinit
 simple-scan
-software-properties-gtk
 system-config-printer
 
 ## Extra Xfce
@@ -110,5 +110,5 @@ xfce4-weather-plugin
 ## Fonts
 fonts-dejavu-core
 fonts-noto-color-emoji
-fonts-noto-hinted
+fonts-noto-core
 fonts-noto-mono
