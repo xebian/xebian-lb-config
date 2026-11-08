@@ -22,7 +22,7 @@ libnotify-bin
 libpam-gnome-keyring
 lightdm
 lightdm-gtk-greeter
-network-manager-gnome
+network-manager-applet
 pipewire-audio
 plymouth
 plymouth-themes
